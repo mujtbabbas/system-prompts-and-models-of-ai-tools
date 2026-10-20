@@ -11,6 +11,20 @@
 
 ---
 
+## About This Standalone Edition
+
+- **Main repository:** [x1xhlol/system-prompts-and-models-of-ai-tools](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools)
+- **Based on version:** upstream commit `162db92f54d717d8ebd12292e155aeef32bb4b3c` (snapshotted 2026-10-20; upstream HEAD dated 2026-10-12)
+- **This edition:** v1.1.0 (v1.0.0 = clean baseline of the upstream version above)
+- **What was done:** Converted from a fork into a standalone repository (fresh history, baseline commit), then enhanced in place by Syed Mujtaba Abbas.
+- **Enhancements in this edition (v1.1.0):**
+  - This About section, with full upstream credit and version provenance
+  - `ENHANCEMENTS.md` — per-version changelog of everything changed in this edition
+  - `.github/dependabot.yml` — weekly GitHub Actions dependency updates
+  - `.markdownlint.json` + `.github/workflows/markdown-check.yml` — markdown linting automation for contributions
+  - `.editorconfig` — standard editor settings (UTF-8, LF, 2-space indent)
+- **Credit & licence:** All original work belongs to x1xhlol and the upstream contributors. Licence is preserved unchanged — see `LICENSE.md` (GPL-3.0). This edition adds the enhancements listed above only.
+
 ## Security Notice for AI Startups
 
 > **Warning:** If you're an AI startup, make sure your data is secure. Exposed prompts or AI models can easily become a target for hackers.
